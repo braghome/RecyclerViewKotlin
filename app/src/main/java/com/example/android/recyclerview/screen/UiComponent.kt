@@ -58,7 +58,7 @@ class UiComponent : AnkoComponent<RecyclerViewFragment> {
      *
      * @param layoutManagerType Type of layout manager to switch to.
      */
-    public fun setRecyclerViewLayoutManager(activity: FragmentActivity, layoutManagerType: LayoutManagerType) {
+    fun setRecyclerViewLayoutManager(activity: FragmentActivity, layoutManagerType: LayoutManagerType) {
         var scrollPosition = 0
 
         // If a layout manager has already been set, get current scroll position.

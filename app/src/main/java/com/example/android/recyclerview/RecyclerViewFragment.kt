@@ -49,10 +49,10 @@ class RecyclerViewFragment : Fragment() {
                     uiComponent.currentLayoutManagerType = savedInstanceState
                             .getSerializable(KEY_LAYOUT_MANAGER) as UiComponent.LayoutManagerType
                 }
-                initDataset()
                 uiComponent.setRecyclerViewLayoutManager(uiComponent.mActivity, uiComponent.currentLayoutManagerType)
                 val controller = RecyclerFragmentController()
                 uiComponent.recyclerView.setController(controller)
+                initDataset()
                 controller.setData(dataset)
             }
             rootView
