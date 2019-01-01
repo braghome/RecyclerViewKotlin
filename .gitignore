@@ -5,3 +5,5 @@ build
 gradlew
 gradlew.bat
 gradle/wrapper/gradle-wrapper.jar
+RecyclerViewKotlin.iml
+app/app.iml
