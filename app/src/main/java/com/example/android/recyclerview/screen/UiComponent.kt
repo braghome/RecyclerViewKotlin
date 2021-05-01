@@ -1,12 +1,12 @@
 package com.example.android.recyclerview.screen
 
 import android.support.v4.app.FragmentActivity
-import android.support.v7.widget.GridLayoutManager
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
 import android.view.Gravity.CENTER_HORIZONTAL
 import android.view.View
 import android.widget.LinearLayout.HORIZONTAL
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.airbnb.epoxy.EpoxyRecyclerView
 import com.example.android.recyclerview.R
 import com.example.android.recyclerview.RecyclerViewFragment

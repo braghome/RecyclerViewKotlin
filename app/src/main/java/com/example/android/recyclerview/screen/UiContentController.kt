@@ -4,10 +4,12 @@ import android.view.Gravity.CENTER_VERTICAL
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import com.airbnb.epoxy.*
+import com.airbnb.epoxy.EpoxyAttribute
+import com.airbnb.epoxy.EpoxyModelClass
+import com.airbnb.epoxy.EpoxyModelWithView
+import com.airbnb.epoxy.TypedEpoxyController
 import com.example.android.common.logger.Log
 import com.example.android.recyclerview.R
-import com.example.android.recyclerview.screen.UiComponent.Companion.TAG
 import org.jetbrains.anko.dimen
 import org.jetbrains.anko.frameLayout
 import org.jetbrains.anko.matchParent
